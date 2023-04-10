@@ -1,0 +1,107 @@
+<style>
+  body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f1f1f1;
+  }
+  .container {
+    width: 80%;
+    margin: 0 auto;
+  }
+  header {
+    background-color: #222;
+    padding: 20px 0;
+  }
+  header a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.2em;
+    display: block;
+    margin-left: 15px;
+  }
+  header a:hover {
+    color: #ddd;
+  }
+  header ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+  header li {
+    float: left;
+    margin-right: 20px;
+  }
+  section {
+    padding: 20px 0;
+  }
+  #showcase {
+    background: url('http://placehold.it/1500x500');
+    background-size: cover;
+    min-height: 500px;
+    color: #fff;
+    padding: 100px 0;
+    text-align: center;
+  }
+  #showcase h1 {
+    font-size: 3em;
+    margin-bottom: 10px;
+  }
+  #showcase p {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+  }
+  #showcase a {
+    color: #fff;
+    padding: 10px 20px;
+    background-color: #222;
+    text-decoration: none;
+  }
+  #newsletter {
+    padding: 20px 0;
+    background-color: #222;
+    color: #fff;
+    text-align: center;
+  }
+  #newsletter h1 {
+    font-size: 2em;
+    margin-bottom: 10px;
+  }
+  #newsletter form {
+    margin-bottom: 10px;
+  }
+  #newsletter input[type="email"] {
+    padding: 10px;
+    width: 300px;
+  }
+  #newsletter input[type="submit"] {
+    padding: 10px 20px;
+    background-color: #ddd;
+    color: #222;
+    text-decoration: none;
+  }
+  #boxes {
+    background-color: #f1f1f1;
+    padding: 20px 0;
+  }
+  #boxes .box {
+    float: left;
+    width: 30%;
+    padding: 10px;
+    margin-right: 10px;
+    text-align: center;
+  }
+  #boxes .box:last-child {
+    margin-right: 0;
+  }
+  #boxes .box img {
+    width: 100%;
+  }
+  footer {
+    background-color: #222;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+  }
+  </style>
